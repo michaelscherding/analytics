@@ -9,8 +9,3 @@ models:
      - name: hp
      - name: kg
      - name: price
-       meta:
-        metrics:
-            sum_price:
-            type: sum
-            sql: price

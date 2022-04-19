@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: grand_turismo_gt7_bi
+
+    columns:
+     - name: model
+     - name: category
+     - name: hp
+     - name: kg
+     - name: hp_per_kg
+     - name: price
+
+       meta:
+        metrics:
+            sum_price:
+            type: sum
+            sql: price

@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: grand_turismo_gt7_bi
+  - name: gran_turismo_gt7_bi
 
     columns:
      - name: model

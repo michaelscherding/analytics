@@ -2,7 +2,6 @@ version: 2
 
 models:
   - name: gran_turismo_gt7_bi
-
     columns:
      - name: mark
      - name: model
@@ -10,7 +9,6 @@ models:
      - name: hp
      - name: kg
      - name: price
-
        meta:
         metrics:
             sum_price:

@@ -4,11 +4,11 @@ models:
   - name: gran_turismo_gt7_bi
 
     columns:
+     - name: mark
      - name: model
      - name: category
      - name: hp
      - name: kg
-     - name: hp_per_kg
      - name: price
 
        meta:

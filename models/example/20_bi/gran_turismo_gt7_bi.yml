@@ -11,6 +11,6 @@ models:
      - name: price
        meta:
          metrics:
-          customer_count:
+          count_models:
             type: count_distinct
-            sql: customer_id
+            sql: model

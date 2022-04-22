@@ -26,6 +26,7 @@ models:
           avrg_hp:
             type: average
             sql: hp
+            round: 1
           avrg_kg:
             type: average
             sql: kg

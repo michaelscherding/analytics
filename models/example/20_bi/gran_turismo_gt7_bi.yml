@@ -14,3 +14,21 @@ models:
           count_models:
             type: count_distinct
             sql: model
+          sum_price:
+            type: sum
+            sql: price
+          count_mark:
+            type: count_distinct
+            sql: mark
+          count_category:
+            type: count_distinct
+            sql: category
+          avrg_hp:
+            type: average
+            sql: hp
+          avrg_kg:
+            type: average
+            sql: kg
+          avrg_price:
+            type: average
+            sql: price

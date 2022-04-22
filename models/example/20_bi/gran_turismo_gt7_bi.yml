@@ -21,6 +21,7 @@ models:
             type: count_distinct
             sql: mark
           count_category:
+            description: "count the number of category"
             type: count_distinct
             sql: category
           avrg_hp:

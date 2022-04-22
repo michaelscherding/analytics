@@ -27,6 +27,7 @@ models:
          metrics:
           avrg_hp:
             type: average
+            description: "average of horse power"
             sql: hp
             round: 1
      - name: kg

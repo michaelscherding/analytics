@@ -4,33 +4,42 @@ models:
   - name: gran_turismo_gt7_bi
     columns:
      - name: mark
+       meta:
+         metrics:
+           count_mark:
+            type: count_distinct
+            sql: mark
      - name: model
-     - name: category
-     - name: hp
-     - name: kg
-     - name: price
        meta:
          metrics:
           count_models:
             type: count_distinct
             sql: model
-          sum_price:
-            type: sum
-            sql: price
-          count_mark:
-            type: count_distinct
-            sql: mark
+     - name: category
+       description: "count the number of category"
+       meta:
+         metrics:
           count_category:
-            description: "count the number of category"
             type: count_distinct
             sql: category
+     - name: hp
+       meta:
+         metrics:
           avrg_hp:
             type: average
             sql: hp
             round: 1
+     - name: kg
+       meta:
+         metrics:
           avrg_kg:
             type: average
             sql: kg
+     - name: price
+       meta:
+          sum_price:
+            type: sum
+            sql: price
           avrg_price:
             type: average
             sql: price

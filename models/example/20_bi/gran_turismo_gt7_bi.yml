@@ -41,6 +41,6 @@ models:
           sum_price:
             type: sum
             sql: price
-          avrg_price:
+          avg_price:
             type: average
             sql: price
